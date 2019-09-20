@@ -1,0 +1,63 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#content{
+	background: #000;
+	max-width: 1200px;
+	color: white;
+	font-family: 'Chilanka', cursive;
+}
+
+#navmain{
+	margin: 0px;
+	background: black;
+	width: 100%;
+	color: white;
+	border-bottom: 1px #999 solid;
+}
+
+#navmain img{
+	float: left;
+}
+
+#navmain>ul{
+	display: block;
+	height: 42px;
+	max-width: 1000px;
+	padding: 0px;
+	margin: auto;
+}
+
+#navmain>ul>li{
+	display: block;
+	float: left;
+	padding: 10px;
+	margin: 0 5px;
+	font-family: 'Chilanka', cursive;
+
+
+}
+
+#navmain a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+#headeruni {
+	display: inline-block;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#headerlema {
+	display: inline-block;
+	font-size: 30px;
+}
